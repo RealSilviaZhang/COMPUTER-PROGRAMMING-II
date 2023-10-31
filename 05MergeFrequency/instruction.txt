@@ -1,0 +1,24 @@
+Assignment Instructions
+연도별 빈도파일을 병합하는 스크립트를 만들고자 한다.
+단어 빈도를 병합하는 함수(merge_k_sorted_freq)를 작성하여 주어진 소스코드(merge_k_frequency.py)를 완성한다.
+
+완성된 스크립트의 실행 방법은 다음과 같다.
+$ ./merge_k_frequency.py 입력파일(s)
+
+예) 
+  $ ./merge_k_frequency.py *.freq > result
+
+* heapq 모듈을 사용해야 함 (dictionary를 생성할 수 없음)
+
+
+Assignment Instructions
+We want to create a script that merges annual frequency files.
+A function (merge_k_sorted_freq) that merges word frequencies is created to complete a given source code (merge_k_frequency.py).
+
+The method of executing the completed script is as follows.
+$ ./merge_k_frequency.py input file(s)
+
+Ex) 
+  $ ./merge_k_frequency.py *.freq > result
+
+* Heapq module must be used (dictionary cannot be generated)

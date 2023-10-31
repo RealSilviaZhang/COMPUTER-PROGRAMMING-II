@@ -1,0 +1,24 @@
+Assignment Instructions
+한글 음절과 자모를 상호 변환하는 프로그램을 구현하고자 한다.
+한글 음절을 자모로 분해하고, 자모를 음절로 결합하는 함수 등을 구현하여 주어진 소스코드(convert_jamo.py)를 완성한다.
+
+완성된 스크립트의 실행 방법은 다음과 같다.
+$ ./convert_jamo.py [<입력파일] [>결과파일]
+
+예) 
+  $ ./convert_jamo.py < test.txt > result.txt
+
+* 외부 모듈을 import하거나 소스코드에 삽입하지 말 것!
+
+
+Assignment Instructions
+It is intended to implement a program that converts Korean syllables and consonants.
+The given source code (convert_jamo.py) is completed by decomposing Korean syllables into consonants and implementing functions that combine consonants into syllables.
+
+The method of executing the completed script is as follows.
+$ ./convert_jamo.py [<enter file] [>result file]
+
+Ex) 
+  $ ./convert_jamo.py < test.txt > result.txt
+
+* Do not import external modules or insert them into source code!

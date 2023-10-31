@@ -1,0 +1,22 @@
+Assignment Instructions
+주어진 형태소 분석 코퍼스로부터 모든 형태소와 품사를 추출하기 위한 스크립트를 만들고자 한다.
+형태소와 품사를 추출하는 함수(get_morphs_tags)를 작성하여 주어진 소스코드(get_morphs_tags.py)를 완성한다.
+
+완성된 스크립트의 실행 방법은 다음과 같다.
+$ ./get_morphs_tags.py 입력파일 > 출력파일
+
+예) $ ./get_morphs_tags.py 2019.tag > 2019.txt
+
+* 형태소 분석 코퍼스는 첨부파일(tagged.zip)에 있음
+
+
+Assignment Instructions
+We want to create a script to extract all morpheme and parts of speech from a given morpheme analysis corpus.
+A function (get_morphs_tags) that extracts morphemes and parts of speech is created and given source code (get_morphs_tags).py) complete.
+
+The method of executing the completed script is as follows.
+$ ./get_morphs_tags.py Input File > Output File
+
+Ex) $ ./get_morphs_tags.py 2019.tag > 2019.txt
+
+* Morpheme Analysis Corpus in Attachment (tagged.zip)

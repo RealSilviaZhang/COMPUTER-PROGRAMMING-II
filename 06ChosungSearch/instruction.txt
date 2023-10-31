@@ -1,0 +1,24 @@
+Assignment Instructions
+주어진 빈도파일에 포함된 단어들의 초성 검색을 위한 스크립트를 만들고자 한다.
+문자열을 초성 문자열로 변환하는 함수(str2chostr)와 초성 색인 함수(chosung_indexing)를 작성하여 주어진 소스코드(chosung_search.py)를 완성한다.
+
+완성된 스크립트의 실행 방법은 다음과 같다.
+$ ./chosung_search.py 입력파일
+
+예) 
+  $ ./chosung_search.py result
+
+* 초성 검색 결과를 출력할 때, 단어 빈도의 내림차순으로 정렬되어야 함. (단, 빈도가 같은 문자열은 문자열 순으로 정렬해야 함)
+
+
+Assignment Instructions
+I would like to create a script for the initial search of words included in the given frequency file.
+A given source code (choseong_search) is created by creating a function that converts a string into an initial string (str2chostr) and an initial index function (choseong_indexing).py) complete.
+
+The method of executing the completed script is as follows.
+$ $ ./chosung_search.py input file
+
+Ex) 
+  $ ./chosung_search.py result
+
+* When outputting the initial search results, they should be arranged in descending order of word frequency. (However, strings with the same frequency must be sorted in order of strings)

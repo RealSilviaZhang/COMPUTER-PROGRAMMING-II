@@ -1,0 +1,26 @@
+Assignment Instructions
+주어진 텍스트 파일로부터 단어 빈도를 출력하는 스크립트를 만들고자 한다.
+단어 빈도를 분석하는 함수(word_count)를 작성하여 주어진 소스코드(word_frequency.py)를 완성한다.
+
+완성된 스크립트의 실행 방법은 다음과 같다.
+$ ./word_frequency.py 입력파일 > 출력파일
+
+예) 
+  $ ./get_index_terms.py 2019.tag > 2019.txt
+  $ ./word_frequency.py 2019.txt > 2019.freq
+
+* 출력 결과는 단어의 오름차순으로 정렬되어야 함
+
+
+Assignment Instructions
+I want to create a script that outputs word frequencies from a given text file.
+A function (word_count) for analyzing word frequencies is prepared to complete a given source code (word_frequency.py).
+
+The method of executing the completed script is as follows.
+$ ./word_frequency.py Input File > Output File
+
+Ex) 
+  $ ./get_index_terms.py 2019.tag > 2019.txt
+  $ ./word_frequency.py 2019.txt > 2019.freq
+
+* Output results must be sorted in ascending order of words

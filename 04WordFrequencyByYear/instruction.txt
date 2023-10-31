@@ -1,0 +1,20 @@
+Assignment Instructions
+주어진 연도별 형태소 분석 코퍼스들로부터 연도별 단어 빈도를 분석하고 사용자가 검색한 단어의 연도별 빈도를 출력하는 스크립트를 만들고자 한다.
+단어 빈도를 분석하는 함수(word_count_by_year)를 작성하여 주어진 소스코드(word_frequency_by_year.py)를 완성한다.
+
+완성된 스크립트의 실행 방법은 다음과 같다.
+$ ./word_frequency_by_year.py 입력파일(s)
+
+예) 
+  $ ./word_frequency_by_year.py *.tag
+
+
+Assignment Instructions
+We want to create a script that analyzes the frequency of words by year from morpheme analysis corpus by year and outputs the frequency by year of words searched by the user.
+A given source code (word_frequency_by_year) is created by creating a function (word_count_by_year) that analyzes word frequencies.py) complete.
+
+The method of executing the completed script is as follows.
+$ ./word_frequency_by_year.py input file(s)
+
+Ex) 
+  $ ./word_frequency_by_year.py *.tag

@@ -1,0 +1,16 @@
+Assignment Instructions
+주어진 형태소 분석 코퍼스로부터 색인어를 추출하는 스크립트를 만들고자 한다.
+색인어를 추출하는 함수(get_index_terms)를 작성하여 주어진 소스코드(get_index_terms.py)를 완성한다.
+완성된 스크립트의 실행 방법은 다음과 같다.
+$ ./get_index_terms.py 입력파일 > 출력파일
+예) $ ./get_index_terms.py 2019.tag > 2019.txt
+* 색인어는 단일어 뿐만 아니라 복합어도 추출해야 함
+
+
+Assignment Instructions
+We want to create a script to extract the index word from a given morpheme analysis corpus.
+A function (get_index_terms) for extracting the index word is created to complete the given source code (get_index_terms.py).
+The method of executing the completed script is as follows.
+$ ./get_index_terms.py Input File > Output File
+Ex) $ ./get_index_terms.py 2019.tag > 2019.txt
+* Indexes should extract compound words as well as single words

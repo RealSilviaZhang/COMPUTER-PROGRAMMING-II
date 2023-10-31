@@ -1,0 +1,31 @@
+Assignment Instructions
+용례 검색을 위한 색인기와 검색기를 구현하고자 한다.
+색인기는 형태소 분석 코퍼스로부터 역색인 구조와 문장 정보를 색인하여 파일로 저장하고,
+검색기는 파일에 저장된 색인 정보를 읽고, 사용자 질의(query)가 포함된 문장들을 검색하여 HTML 문서 형식으로 출력한다.
+주어진 2개의 소스코드(indexer.py와 search.py)를 완성한다.
+
+완성된 스크립트의 실행 방법은 다음과 같다.
+$ ./indexer.py 입력파일(s)
+$ ./search.py [> 결과파일]
+
+예) 
+  $ ./indexer.py *.tag
+  $ ./search.py > result.html
+
+* 문장 검색 결과를 출력할 때, 색인된 문장 순서대로 정렬되어야 함
+
+Assignment Instructions
+We would like to implement an indexer and a search device for usage search.
+The indexer indexes the inverse index structure and sentence information from the morpheme analysis corpus and stores it as a file,
+The searcher reads index information stored in the file, searches sentences containing user queries, and outputs them in HTML document format.
+Two source codes given (indexer.py and search).py) complete.
+
+The method of executing the completed script is as follows.
+$ ./indexer.py Input File (s)
+$ $ ./search.py [> Result File]
+
+Ex) 
+  $ ./indexer.py *.tag
+  $ ./search.py > result.html
+
+* When outputting sentence search results, they must be sorted in indexed sentence order
